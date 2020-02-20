@@ -1,0 +1,27 @@
+programminglevel0:		//at start
+	activate:
+		clearLog();				[18]
+		help();					[19]
+		log(String); 			[14]
+		log(int);				[15]
+	deactivate:
+		rest
+	
+programminglevel1:		//after first talk
+	activate:
+		interact();				[0]
+		turn(Blickrichtung);	[7]
+		turn(char);				[8]
+		walk();					[9]
+		walk(int);				[10]
+		getX();					[26]
+		getY();					[27]
+		getWorldin()			[28]
+	deactivate:
+		rest
+		
+programminglevel2:
+	activate:
+		
+	deactivate:
+		
