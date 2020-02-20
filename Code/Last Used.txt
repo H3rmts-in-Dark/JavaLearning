@@ -1,0 +1,8 @@
+logic.Player.Stats[0] = 1000;
+
+
+
+
+
+
+
